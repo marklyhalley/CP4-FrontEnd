@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        gap: 3rem;
+        margin: 80 auto;
+    }
+
+    .espacinho {
+        font-size: 1.0rem;
+    }
+
+    .hero-texto,
+    .hero-img {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .hero-img {
+        order: -1;
+    }
+
+    .hero-img img {
+        width: 90%;
+        height: 100%;
+    }
+
+    .hero-texto {
+        order: 2;
+        height: 25vh;
+    }
+
+    .hero-texto p {
+        width: 90%;
+    }
+
+    #musicasmais {
+        text-align: center;
+
+    }
+    .artistas {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .artista {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 2rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+    }
+
+    h2 {
+        width: 550;
+    }
+
+    .footer-col h4 {
+        margin-bottom: 0.5rem;
+        font-size: 1.0rem;
+    }
+
+    .footer-col a {
+        font-size: 0.7rem;
+    }
+
+    .footer-container {
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .footer-col {
+        text-align: center;
+    }
+
+    .footer-social {
+        display: flex;
+        justify-content: center;
+        gap: 1.5rem;
+
+    }
+
+}

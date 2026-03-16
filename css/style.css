@@ -1,0 +1,244 @@
+:root {
+    --azul-claro: #00ffff;
+    --azul-escuro: #0C0C23;
+    --roxo: hsla(287, 44%, 21%, 0.418);
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: url(../fonts/Quicksand-Medium.ttf) format(truetype);
+    font-weight: 500; 
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    background: linear-gradient(120deg, hsl(240deg 49% 9%) 0%, hsl(245deg 47% 10%) 5%, 
+    hsl(250deg 49% 12%) 12%, hsl(254deg 48% 13%) 26%, hsl(258deg 46% 14%) 75%, hsl(264deg 45% 15%) 
+    90%, hsl(268deg 47% 16%) 96%, hsl(274deg 46% 17%) 99%, hsl(278deg 45% 19%) 100%, hsl(283deg 45% 
+    20%) 100%, hsl(287deg 44% 21%) 100%);
+    min-height: 100vh; 
+}
+
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--azul-claro);
+}
+
+.espacinho {
+    margin: 0 0 0 10px;
+}
+
+.container-header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+header img {
+    width: 50px;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--azul-claro);
+}
+
+
+.btn, .btn_login {
+    border: 1px solid var(--azul-claro);
+    color: var(--azul-claro);
+    padding: 8px 30px; 
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn i {
+    margin-left: 8px; 
+}
+
+.btn:hover, .btn_login:hover {
+    background: #ffffff;
+    border-color: #ffffff;
+    color: var(--azul-escuro);
+}
+
+
+.hero {
+    width: 90%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.hero-texto { 
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+}
+
+.hero-texto h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+#musicasmusicais {
+    color: #ffff;
+}
+
+.hero-texto span {
+    color: var(--azul-claro);
+}
+
+.hero-texto p {
+    margin: 1.5rem 0 2rem 0;
+    width: 60%;
+    font-size: 0.9rem;
+}
+
+.hero-img {
+    width: 45%;
+    height: 400px;
+    background: var(--roxo);
+    border-radius: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 0 0 80px 0;
+    transition: 0.4s;
+}
+
+.hero-img img:hover {
+    transform: scale(1.1);
+}
+
+
+.musicas {
+    width: 90%;
+    margin: 4rem auto;
+}
+
+.musicas h2 {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.artistas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.artista {
+    width: 30%;
+}
+
+.artista img {
+    width: 80%;
+    border-radius: 80px 0;
+    margin: auto;
+    display: block;
+    transition: 0.4s;
+}
+
+.artista img:hover {
+    transform: scale(1.1);
+}
+
+.artista h3 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+.artista p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+
+.footer {
+    width: 90%;
+    margin: 4rem auto 2rem auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 6rem; 
+    margin-bottom: 2rem;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.footer-col h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.0rem;
+    transition: 0.3s;
+}
+
+.footer-col a:hover {
+    color: var(--azul-claro);
+}
+
+.footer-social {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.social {
+    color: var(--azul-claro);
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social:hover {
+    color: #ffffff;
+}
+
+
