@@ -116,6 +116,7 @@ nav a:hover {
 
 .hero-texto span {
     color: var(--azul-claro);
+    display: block;
 }
 
 .hero-texto p {

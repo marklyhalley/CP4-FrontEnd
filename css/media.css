@@ -28,6 +28,11 @@
     .hero-texto {
         order: 2;
         height: 25vh;
+        margin-bottom:20vh;
+    }
+
+    .btn_login {
+        padding: 8px 15px; 
     }
 
     .hero-texto p {
@@ -97,3 +102,4 @@
     }
 
 }
+
